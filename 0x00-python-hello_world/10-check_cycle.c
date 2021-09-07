@@ -8,8 +8,8 @@ int check_cycle(listint_t *list)
 {
 	listint_t *tmp_1 = NULL, *tmp_2 = NULL;
 
-	tmp1 = list;
-	tmp2 = list;
+	tmp_1 = list;
+	tmp_2 = list;
 
 	while (list)
 	{
