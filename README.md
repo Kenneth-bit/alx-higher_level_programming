@@ -1,3 +1,3 @@
-## This is my README for the alx-higher_level_programming
+## This table explains what each script does
 
 
