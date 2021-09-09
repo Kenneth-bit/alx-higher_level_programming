@@ -2,4 +2,4 @@
 from add_0 import add
 
 sum = add(1, 2)
-print("1 + 2 = {}".format(sum))
+print("{} + {} = {}".format(a, b, sum))
