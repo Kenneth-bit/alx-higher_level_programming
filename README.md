@@ -1,4 +1,1 @@
-## These are my projects for the ALX Python Higher Level Programming
-
-
-# This table explains what each script does
+# This is repo is for my Python Higher Level Programming projects for my ALX SE Program.
