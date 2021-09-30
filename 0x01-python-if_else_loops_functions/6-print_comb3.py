@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for number in range(0, 10):
-    for digit in range(0, 10):
-        if number < digit and (number + digit) != 17:
-           print("{}{}".format(number, digit), end=', ')
-        elif number < digit and (number + digit) == 17:
-           print("{}{}".format(number, digit))
+for num in range(0, 10):
+    for dgt in range(0, 10):
+        if num < dgt and (num + dgt) != 17:
+           print("{}{}".format(num, dgt), end=', ')
+        elif num < dgt and (num + dgt) == 17:
+           print("{}{}".format(num, dgt))
