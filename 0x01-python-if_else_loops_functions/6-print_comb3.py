@@ -2,6 +2,6 @@
 for num in range(0, 10):
     for dgt in range(0, 10):
         if num < dgt and (num + dgt) != 17:
-           print("{}{}".format(num, dgt), end=', ')
+            print("{}{}".format(num, dgt), end=', ')
         elif num < dgt and (num + dgt) == 17:
-           print("{}{}".format(num, dgt))
+            print("{}{}".format(num, dgt))
