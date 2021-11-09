@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-LockedClass = __import__('101-locked_class').LockedClass
+magic_string = __import__('100-magic_string').magic_string
 
-lc = LockedClass()
-lc.first_name = "John"
-try:
-    lc.last_name = "Snow"
-except Exception as e:
-    print("[{}] {}".format(e.__class__.__name__, e))
+for i in range(10):
+    print(magic_string())
