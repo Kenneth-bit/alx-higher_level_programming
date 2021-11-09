@@ -4,8 +4,8 @@
 | ------ | ------------ |
 | 0-run | This Shell script that runs a Python script.<br><br>The Python file name will be saved in the environment variable $PYFILE |
 | 1-run_inline | This Shell script that runs Python code.<br><br>The Python code will be saved in the environment variable $PYCODE |
-| 2-print.py |  |
-| 3-print_number.py |  |
+| 2-print.py | A Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.<br><br>Use the function `print`. |
+| 3-print_number.py |  Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.<br><br>* You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py)<br>* The output of the script should be:+ the number, followed by `Battery street`,+ followed by a new line<br>* You are not allowed to cast the variable `number` into a string<br>* Your code must be 3 lines long.<br>* You have to use the new print numbers [tips](https://pyformat.info/#number) (with .format(...)). |
 | 4-print_float.py |  |
 | 5-print_string.py |  |
 | 6-concat.py |  |
