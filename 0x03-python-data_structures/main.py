@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-no_c = __import__('5-no_c').no_c
+#!/usr/bin/python3
+print_list_integer = __import__('0-print_list_integer').print_list_integer
 
-print(no_c("Holberton School"))
-print(no_c("Chicago"))
-print(no_c("C is fun!"))
+my_list = [0, 1, 2, 3, 4, 5]
+print_list_integer(my_list)
