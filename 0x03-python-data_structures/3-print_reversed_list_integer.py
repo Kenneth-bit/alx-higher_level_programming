@@ -2,8 +2,7 @@
 def print_reversed_list_integer(my_list=[]):
     """ Prints the list elements in reverse order
     """
-    
-    if my_list == None:
+    if my_list is None:
         pass
     else:
         my_list.reverse()
