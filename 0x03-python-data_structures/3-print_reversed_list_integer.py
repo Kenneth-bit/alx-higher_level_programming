@@ -2,9 +2,19 @@
 def print_reversed_list_integer(my_list=[]):
     """ Prints the list elements in reverse order
     """
-    my_list.reverse()
-    for item in my_list:
-        try:
-            print("{:d}".format(item))
-        except ValueError:
-            print("{:s}".format(item))
+    
+    if my_list == None:
+        pass
+    else:
+        my_list.reverse()
+        for item in my_list:
+            if type(item) == int:
+                try:
+                    print("{:d}".format(item))
+                except SyntaxError:
+                    pass
+            elif type(item) == str:
+                try:
+                    print("{:s}".format(item))
+                except SyntaxError:
+                    pass
