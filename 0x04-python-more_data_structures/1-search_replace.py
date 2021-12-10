@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
     new_list = []
-    j = 1
-    for i in my_list:
-        if j == search:
+    for number in my_list:
+        if search in my_list:
             new_list.insert(search, replace)
         else:
-            new_list.append(i)
-        j += 1
+            new_list.append(number)
     return new_list
