@@ -1,1 +1,1 @@
-This Table explains what each script does
+# 0x04-python-more_data_structures
