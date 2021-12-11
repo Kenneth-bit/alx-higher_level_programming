@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 def common_elements(set_1, set_2):
-    a = set(set_1)
-    b = set(set_2)
-    return a & b
+    commons_1 = set(set_1)
+    commons_2 = set(set_2)
+    return commons_1 & commons_2
