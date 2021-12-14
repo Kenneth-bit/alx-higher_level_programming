@@ -1,23 +1,18 @@
 #!/usr/bin/node
 const argv = require('process').argv;
-let side = parseInt(argv[2]);
-let line = 'X';
+let sides = parseInt(argv[2]);
+let line = '';
+let exes = 0;
 
-
-/*if (isNaN(sides)) {
+if (isNaN(sides)) {
   console.log('Missing size');
 } else if (sides > 0) {
-  for (i = 1; i <= sides; i++){
-    for (j = 1; j <= sides; j++){
-      console.log(line)
-    }
-    console.log('');
+  while (exes !== sides) {
+    line += 'X';
+    exes++;
   }
-}*/
-
-for(i = 1; i <= side; i++){
-  for(j = 1; j <= side; j++){
-    console.log("*");
-    }
-  console.log("\n"); 
+  while (sides !== 0) {
+    console.log(line);
+    sides--;
   }
+}
