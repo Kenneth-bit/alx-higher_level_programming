@@ -6,6 +6,6 @@ if (args === 0) {
   console.log('No argument');
 } else if (args === 1) {
   console.log('Argument found');
-} else {
+} else if (args > 1) {
   console.log('Arguments found');
 }
