@@ -1,11 +1,9 @@
 #!/usr/bin/node
 import { argv } from 'process';
-
-const args = argv.length - 2;
-if (args === 0) {
+if (argv.length === 2) {
   console.log('No argument');
-} else if (args === 1) {
+} else if (argv.length === 3) {
   console.log('Argument found');
-} else if (args > 1) {
+} else if (argv.length > 3) {
   console.log('Arguments found');
 }
