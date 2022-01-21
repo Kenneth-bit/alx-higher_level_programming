@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+      2 __pycache__/
+      3 *.py[cod]
+      4 *$py.class
+      5 
+      6 # C extensions
+      7 *.so
+      8 
+      9 # Distribution / packaging
+     10 .Python
+     11 build/
+     12 develop-eggs/
+     13 dist/
+     14 downloads/
+     15 eggs/
+     16 .eggs/
+     17 lib/
+     18 lib64/
+     19 parts/
+     20 sdist/
+     21 var/
+     22 wheels/
+     23 pip-wheel-metadata/
+     24 share/python-wheels/
+     25 *.egg-info/
+     26 .installed.cfg
+     27 *.egg
+     28 MANIFEST
+     29 
+     30 # PyInstaller
+     31 #  Usually these files are written by a python script from a template
+     32 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
+     33 *.manifest
+     34 *.spec
+     35 
+     36 # Installer logs
+     37 pip-log.txt
+     38 pip-delete-this-directory.txt
